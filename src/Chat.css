@@ -3,6 +3,7 @@
     flex-grow: 1;
     overflow-y: scroll;
     padding-bottom: 150px;
+    background-color:  #a684a8;
 }
 
 .chat__header {
@@ -39,5 +40,9 @@
 .chat__headerRight > .MuiSvgIcon-root {
     margin-right: 5px !important;
     font-size: 16px;
+}
+.chat__messages {
+    background-color: white;
+    border: 1px solid var(--slack-color) ;
 }
 
